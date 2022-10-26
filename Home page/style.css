@@ -76,9 +76,12 @@ nav {
 .signUp {
   font-size: 18px;
   background-color: #fff;
+  /* box-sizing: inline; */
   color: #e67e22;
   /* font-weight: 500; */
   text-decoration: none;
+  display: flex;
+  align-items: center;
   padding: 6px 16px;
   /* background-color: #ed6a5e; */
   /* background-color: #e67e22; */
