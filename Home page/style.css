@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: ubuntu;
+  transition: 1s smooth ease-in-out;
   /* overflow-y: hidden; */
 }
 html,
@@ -32,7 +33,7 @@ nav {
   padding: 0 100px;
   z-index: 9999999999999999999999;
   /* color: transparent;
-  background-color: 0 0 5px rgba(0, 0, 0, 0.5); */
+    background-color: 0 0 5px rgba(0, 0, 0, 0.5); */
 
   /* background-color: #000; */
   /* opacity: 0.1; */
@@ -50,7 +51,7 @@ nav {
 .nav-btn {
   font-size: 20px;
   display: flex;
-  gap: 50px;
+  gap: 35px;
 }
 
 .login {
@@ -61,13 +62,24 @@ nav {
   padding: 12px 0;
 }
 
+.nav-el {
+  color: #111;
+  font-size: 18px;
+  /* font-weight: 500; */
+  text-decoration: none;
+  padding: 12px 0;
+}
+.nav-el:hover {
+  color: #e67e22;
+}
+
 .signUp {
-  font-size: 20px;
+  font-size: 18px;
   background-color: #fff;
   color: #e67e22;
   /* font-weight: 500; */
   text-decoration: none;
-  padding: 8px 16px;
+  padding: 6px 16px;
   /* background-color: #ed6a5e; */
   /* background-color: #e67e22; */
   border: 1px solid #ed6a5e;
@@ -79,6 +91,7 @@ nav {
 }
 
 .signUp:hover {
+  transition: all 0.4s;
   background-color: #e67e22;
 
   color: #fff;
