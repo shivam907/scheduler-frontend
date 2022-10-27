@@ -151,7 +151,7 @@ label {
 .inputbox input {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 30px;
   width: 500px;
   height: 40px;
   border: none;
@@ -167,7 +167,7 @@ label {
   padding-bottom: 15px;
   position: absolute;
   top: 5px;
-  left: 5px;
+  left: 35px;
   font-size: 25px;
   transition: 0.6s;
   font-family: sans-serif;
@@ -205,6 +205,7 @@ form .signUp {
   /* position: absolute; */
   /* font-size: 30px; */
   /* padding: 20px; */
+  margin-left: 35px;
   padding: 12px 24px;
 }
 
@@ -256,4 +257,13 @@ form .signUp {
   content: "";
   flex: 1 0 20px;
   border-top: 1px solid #111;
+}
+
+.email {
+  position: absolute;
+  bottom: 15px;
+  font-size: 30px;
+  color: #777;
+  /* width: 100px; */
+  left: -20px;
 }
