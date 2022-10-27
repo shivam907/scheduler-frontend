@@ -10,8 +10,9 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
 }
 .bod {
   margin: 0;
@@ -118,110 +119,8 @@ nav {
   height: auto;
   /* height: 50vh; */
 }
-form {
-  /* width: ; */
-  margin-left: -190px;
-  /* background-color: antiquewhite; */
-}
-.insaan {
-  width: 35vw;
-  /* height: 50vh; */
-}
 
 h1 {
+  margin-top: 200px;
   font-size: 50px;
-  color: #444;
-  margin-bottom: 50px;
-}
-
-.input-mail {
-  background-color: transparent;
-  height: 30px;
-  width: 500px;
-  position: relative;
-  border: none;
-  border-bottom: 2px solid #222;
-  outline: none;
-}
-
-/* .input-mail::placeholder {
-  font-size: 25px;
-} */
-
-.inputbox {
-  position: relative;
-  width: 300px;
-  height: 50px;
-  /* margin-left: 10px; */
-  margin-bottom: 50px;
-}
-
-label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 35px;
-  pointer-events: none;
-  user-select: none;
-}
-.inputbox input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 500px;
-  height: 40px;
-  border: none;
-  border-bottom: 2px solid #333;
-  outline: none;
-  background: none;
-  /* padding: 10px; */
-  /* border-radius: 10px; */
-  font-size: 1.2em;
-}
-.inputbox label {
-  color: #777;
-  padding-bottom: 15px;
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  font-size: 25px;
-  transition: 0.6s;
-  font-family: sans-serif;
-}
-.inputbox input:active ~ label,
-.inputbox input:focus ~ label {
-  transform: translateY(-55px);
-  /* color: #222;
-  font-size: 35px; */
-  /* border: none; */
-  padding-bottom: 40px;
-}
-
-input:active,
-input:focus {
-  border: none;
-  border-bottom: 3px solid #e67e22;
-}
-.wave {
-  position: absolute;
-  height: 121vh;
-  bottom: -20px;
-
-  width: 100vw;
-  /* z-index: -1; */
-}
-form {
-  /* margin-left: -200px; */
-}
-/* .inputbox .signUp {
-  position: absolute;
-  bottom: -50px;
-  padding: 8px 16px; */
-/* } */
-
-form .signUp {
-  /* position: absolute; */
-  /* font-size: 30px; */
-  /* padding: 20px; */
-  padding: 12px 24px;
 }
