@@ -632,3 +632,19 @@ textarea {
 .address {
   margin-bottom: 50px;
 }
+
+input,
+textarea {
+  outline: none;
+  outline: 2px solid #e67e22;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  outline: 2px solid rgb(231, 126, 35, 0.5);
+  /* background-color: #e67e22; */
+  /* transition: 0.6s ease-in-out; */
+  outline-offset: 8px;
+  box-shadow: 0 0 0 8px rgba(230, 125, 34, 0.5);
+}
