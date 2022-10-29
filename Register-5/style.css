@@ -238,3 +238,8 @@ a {
 .import {
   font-size: 12px;
 }
+
+a {
+  cursor: pointer;
+  z-index: 99999;
+}

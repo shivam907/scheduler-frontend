@@ -149,3 +149,6 @@ select:invalid,
   box-shadow: 0 0 5px rgb(230, 126, 34, 0.7);
   transition: 0.2s ease-in-out;
 }
+a {
+  text-decoration: none;
+}

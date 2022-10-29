@@ -124,3 +124,7 @@ select:invalid,
   color: #777;
   left: 45%;
 }
+
+a {
+  text-decoration: none;
+}
