@@ -6,6 +6,7 @@
   font-family: helvetica;
 }
 body {
+  overflow: hidden;
   display: flex;
   height: 100vh;
   align-items: center;
@@ -123,4 +124,91 @@ select:invalid,
   font-size: 1.1rem;
   color: #777;
   left: 45%;
+}
+
+.features {
+  /* background-color: azure; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team {
+  font-size: 14px;
+  color: #676767;
+}
+
+.teamMembers {
+  padding: 20px;
+  border-radius: 7px;
+  color: #33475b;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1.5px solid #f5bb88;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.teamMembers:focus {
+  background-color: rgba(230, 125, 34, 0.6);
+  color: #fff;
+}
+
+.teamMembers:hover {
+  border: 1.5px solid #e67e22;
+  box-shadow: 0 0 5px rgb(230, 126, 34, 0.7);
+  transition: 0.2s ease-in-out;
+}
+
+.later {
+  margin-top: 4%;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #e67e22;
+}
+
+.wave {
+  position: absolute;
+  bottom: -60px;
+}
+
+.blob {
+  position: absolute;
+  /* left: 110px; */
+  left: 15%;
+  z-index: -1;
+  bottom: 20%;
+  width: 70%;
+}
+
+ul {
+  list-style: none;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+li {
+  color: #33475b;
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.list {
+  color: #676767;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+ion-icon {
+  font-size: 29px;
+  color: #e67e22;
 }

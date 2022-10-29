@@ -135,7 +135,7 @@ select:invalid,
   background-color: transparent;
   font-size: 18px;
   color: #555;
-  border: 1.5px solid #e67e22;
+  border: 1.5px solid #f5bb88;
   cursor: pointer;
 }
 
@@ -145,6 +145,7 @@ select:invalid,
 }
 
 .option:hover {
-  box-shadow: 0 0 15px rgb(230, 126, 34, 0.7);
-  transition: 0.3s ease-in-out;
+  border: 1.5px solid #e67e22;
+  box-shadow: 0 0 5px rgb(230, 126, 34, 0.7);
+  transition: 0.2s ease-in-out;
 }
