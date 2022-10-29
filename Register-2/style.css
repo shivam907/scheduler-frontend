@@ -58,6 +58,35 @@ input {
 input::placeholder {
   color: #777;
 }
+.group option {
+  color: red;
+}
+
+/* option {
+  color: red;
+} */
+option {
+  color: red !important;
+}
+
+option:first-child {
+  color: #999;
+}
+
+.col {
+  /* font-size: 90px; */
+  color: #999 !important;
+}
+
+option::first-letter,
+select:invalid,
+.select {
+  color: #888;
+}
+
+/* .size {
+  font-size: 25px;
+} */
 
 .btn {
   padding: 10px 16px;
