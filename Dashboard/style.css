@@ -192,3 +192,7 @@ nav {
   grid-template-rows: 1fr 1fr;
   gap: 20px;
 }
+
+div::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
