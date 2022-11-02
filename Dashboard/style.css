@@ -7,7 +7,8 @@
 }
 
 body {
-  background-color: antiquewhite;
+  /* background-color: #e67e22; */
+  background-color: #fdf2e9;
 }
 
 nav {
@@ -117,21 +118,25 @@ nav {
   max-height: 38vh;
   contain: content;
   position: relative;
-  padding: 5px;
+  /* padding: 5px; */
   gap: 10px;
   display: grid;
   /* grid-auto-rows: 500px; */
   overflow: auto;
   background-color: red;
 }
+
 .box {
   height: 80px;
-  width: 100%;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1.5%;
   background-color: #111;
   border-radius: 8px;
 }
 .two {
-  padding: 5px;
+  /* padding: 5px; */
   gap: 10px;
   display: grid;
   /* grid-auto-rows: 500px; */
@@ -141,9 +146,13 @@ nav {
   background-color: blue;
 }
 
+.two {
+  padding: 0;
+}
+
 .three {
   max-height: 38vh;
-  padding: 5px;
+  /* padding: 5px; */
   gap: 10px;
   display: grid;
   /* grid-auto-rows: 500px; */
@@ -153,7 +162,7 @@ nav {
 }
 
 .four {
-  padding: 5px;
+  /* padding: 5px; */
   gap: 10px;
   display: grid;
   /* grid-auto-rows: 500px; */
@@ -165,7 +174,7 @@ nav {
 }
 
 .five {
-  padding: 5px;
+  /* padding: 5px; */
   gap: 10px;
   display: grid;
   /* grid-auto-rows: 500px; */
@@ -175,7 +184,7 @@ nav {
   /* height: 100%; */
 }
 .six {
-  padding: 5px;
+  /* padding: 5px; */
   gap: 10px;
   display: grid;
   /* grid-auto-rows: 500px; */
@@ -195,15 +204,17 @@ nav {
   gap: 20px;
 }
 
-div::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
-}
+/* div::-webkit-scrollbar {
+  display: none; 
+} */
 
 header {
   width: 100%;
   position: sticky;
   text-align: center;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: inherit;
+  background-color: inherit;
   /* position: absolute; */
   top: 0;
   height: 27px;
@@ -217,4 +228,16 @@ header {
   margin-top: 30px;
   display: grid;
   gap: 5px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  /* background-color: #fdf2e9; */
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.1);
 }
