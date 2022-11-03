@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Raleway+Dots&family=Rubik:wght@400;500;600;700;800&display=swap");
+
 * {
   font-family: rubik;
   margin: 0;
@@ -7,16 +9,48 @@
 }
 
 .navbar {
-  height: 95vh;
-  margin: 0 1.5%;
+  height: 100vh;
+  /* margin: 0 1.5%; */
   /* margin-top: 4%; */
-  margin-top: 1.2%;
+  /* margin-top: 1.2%; */
   margin-bottom: auto;
   width: 5%;
   border-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   background-color: #e67e22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* align-items: center; */
+  justify-content: space-evenly;
+  padding: 2px;
 }
 
 .asideHead {
+  font-family: "Raleway Dots", cursive;
+  color: #fff;
   font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 100;
+}
+
+ion-icon {
+  color: #fff;
+
+  font-size: 35px;
+}
+
+.icon2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+  gap: 12px;
 }
