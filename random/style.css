@@ -10,6 +10,8 @@
 
 body {
   background-color: #fbceb1;
+  display: flex;
+  /* flex-direction: column; */
 }
 
 .navbar {
@@ -78,7 +80,8 @@ ion-icon {
   height: 40px;
   width: 65px;
   left: -10px;
-  background-color: #fbceb1;
+  /* background-color: #fbceb1; */
+  background-color: rgb(255, 255, 255, 0.5);
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   position: absolute;
@@ -106,4 +109,56 @@ nav ion-icon {
 .nav-h1 {
   font-weight: 200;
   font-size: 40px;
+}
+
+.container {
+  align-self: flex-end;
+  height: 90vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 35px;
+  /* background-color: #fff; */
+  z-index: 999;
+}
+
+.horizontal {
+  display: flex;
+  gap: 50px;
+  /* background-color: #e67e22; */
+}
+
+.box {
+  border-radius: 23px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  height: 30vh;
+  width: 27vw;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.box-1 {
+  border-radius: 23px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  height: 50vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.box-3 {
+  border-radius: 23px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container2 {
+  align-self: flex-end;
+  justify-self: flex-end;
+  /* background-color: #e67e22; */
+  /* padding-top: 10vh; */
+  padding: 35px 20px 35px 0;
+  z-index: 9999999;
+  width: 35%;
+  height: 90vh;
 }
