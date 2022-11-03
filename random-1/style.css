@@ -62,7 +62,7 @@ ion-icon {
   gap: 12px;
 }
 
-.home {
+.team {
   /* background-color: #fff;*/
   color: black;
   /* position: relative; */
@@ -133,8 +133,9 @@ nav ion-icon {
 .box {
   border-radius: 23px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  max-height: 30vh;
+  height: 37.5vh;
   display: flex;
+  gap: 15px;
   flex-direction: column;
   padding: 10px;
   width: 27vw;
@@ -145,7 +146,7 @@ nav ion-icon {
   border-radius: 23px;
   padding: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  max-height: 50vh;
+  height: 50vh;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -185,17 +186,13 @@ nav ion-icon {
   display: grid;
   overflow: auto;
 }
-.cont3::-webkit-scrollbar,
-.cont2::-webkit-scrollbar,
-.content::-webkit-scrollbar {
+.members::-webkit-scrollbar {
   /* border-radius: 50%; */
   /* background: #fff; */
   width: 5px;
 }
 
-.cont3::-webkit-scrollbar-thumb,
-.cont2::-webkit-scrollbar-thumb,
-.content::-webkit-scrollbar-thumb {
+.members::-webkit-scrollbar-thumb {
   border-radius: 80px;
   background: #f9b98f;
 }
@@ -438,4 +435,36 @@ nav ion-icon {
 .todo-msg,
 .box2 {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.07);
+}
+
+.members {
+  display: grid;
+  gap: 8px;
+  overflow: auto;
+}
+
+.member-data {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  width: 100%;
+  height: 8vh;
+  padding: 5px;
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 20px;
+}
+
+.team-img {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.serial,
+.name-team {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+}
+.serial {
+  font-size: 24px;
 }
