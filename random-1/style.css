@@ -429,7 +429,7 @@ nav ion-icon {
 
 .left-todo ion-icon:hover,
 .right-todo ion-icon:hover {
-  color: #111;
+  color: #000;
 }
 
 .todo-msg,
@@ -471,4 +471,26 @@ nav ion-icon {
 
 a {
   text-decoration: none;
+}
+
+.asideHead {
+  cursor: pointer;
+}
+
+.dots:hover {
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+.dots {
+  color: #e67e22;
+  /* background-color: #000; */
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
